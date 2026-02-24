@@ -75,7 +75,7 @@ def generate_cover_image(title: str, summary: str, output_path: str):
     default_prompt = "Minimalist tech cover, blue gradient background, abstract AI neural network patterns, clean white text space, professional business style --ar 2.35:1 --v 6.1"
 
     ZIMAGE_API = "https://api-inference.modelscope.cn/v1/images/generations"
-    ZIMAGE_KEY = "ms-9d9aef10-3ad7-477d-8f52-f687c7ba3cef"
+    ZIMAGE_KEY = " "
 
     data = {
         "model": "Tongyi-MAI/Z-Image",
